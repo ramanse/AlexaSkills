@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "connect to my journey planner",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TransitInfo",
+                    "slots": [
+                        {
+                            "name": "BusRoute",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "Location",
+                            "type": "AMAZON.DE_REGION"
+                        }
+                    ],
+                    "samples": [
+                        "Does {BusRoute} comes at {Location}",
+                        "what time does train arrives at {Location}",
+                        "what time does bus arrives at {Location}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

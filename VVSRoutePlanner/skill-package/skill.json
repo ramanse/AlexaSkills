@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://5e66ac84be28.ngrok.io",
+          "sslCertificateType": "Wildcard"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "https://5e66ac84be28.ngrok.io",
+              "sslCertificateType": "Wildcard"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "https://5e66ac84be28.ngrok.io",
+              "sslCertificateType": "Wildcard"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "https://5e66ac84be28.ngrok.io",
+              "sslCertificateType": "Wildcard"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "VVS Route Planner",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

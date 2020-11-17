@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://f00e81b1a607.ngrok.io ",
+          "sslCertificateType": "Wildcard"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "https://f00e81b1a607.ngrok.io ",
+              "sslCertificateType": "Wildcard"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "https://f00e81b1a607.ngrok.io ",
+              "sslCertificateType": "Wildcard"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "https://f00e81b1a607.ngrok.io ",
+              "sslCertificateType": "Wildcard"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa check my mercedes",
+            "my mercedes"
+          ],
+          "keywords": [],
+          "name": "MyMercedes",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

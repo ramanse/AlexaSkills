@@ -1,0 +1,76 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "my mercedes",
+          "modelConfiguration": {
+              "fallbackIntentSensitivity": {
+                  "level": "LOW"
+              }
+          },
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "vehiclestatus",
+                  "slots": [
+                      {
+                          "name": "bType",
+                          "type": "AMAZON.StreetName"
+                      }
+                  ],
+                  "samples": [
+                      "how much is {bType}",
+                      "what is {bType}",
+                      "what is the {bType} level",
+                      "what is {bType} level"
+                  ]
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "updatevehicle",
+                  "slots": [
+                      {
+                          "name": "type",
+                          "type": "AMAZON.GB_FIRST_NAME"
+                      }
+                  ],
+                  "samples": [
+                      "lock the {type} "
+                  ]
+              },
+              {
+                  "name": "vehicleLockStatus",
+                  "slots": [
+                      {
+                          "name": "lockTarget",
+                          "type": "AMAZON.FirstName"
+                      }
+                  ],
+                  "samples": [
+                      "are {lockTarget} locked",
+                      "is {lockTarget} unlocked",
+                      "is  {lockTarget} locked"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
